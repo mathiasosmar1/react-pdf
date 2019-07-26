@@ -91,7 +91,8 @@
     "merge-refs": "^1.0.0",
     "pdfjs-dist": "2.5.207",
     "prop-types": "^15.6.2",
-    "worker-loader": "^3.0.0"
+    "worker-loader": "^3.0.0",
+    "react-fast-compare": "^2.0.4"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.0",
