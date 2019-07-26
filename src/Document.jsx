@@ -6,12 +6,9 @@ import PropTypes from 'prop-types';
 import makeEventProps from 'make-event-props';
 import makeCancellable from 'make-cancellable-promise';
 import mergeClassNames from 'merge-class-names';
-<<<<<<< HEAD
-import * as pdfjs from 'pdfjs-dist';
-=======
+
 import pdfjs, { PDFDataRangeTransport } from 'pdfjs-dist';
 import isEqual from 'react-fast-compare';
->>>>>>> cf85645 (Moved import react-fast-compare to before import DocumentContext)
 
 import DocumentContext from './DocumentContext';
 
