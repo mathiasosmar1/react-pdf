@@ -34,6 +34,8 @@ import { eventProps, isClassName, isRef } from './shared/propTypes';
 
 const { PDFDataRangeTransport } = pdfjs;
 
+import isEqual from 'react-fast-compare';
+
 export default class Document extends PureComponent {
   state = {
     pdf: null,
@@ -72,7 +74,7 @@ export default class Document extends PureComponent {
 
   componentDidUpdate(prevProps) {
     const { file } = this.props;
-    if (file !== prevProps.file) {
+    if (!isEqual(file, prevProps.file)){
       this.loadDocument();
     }
   }
