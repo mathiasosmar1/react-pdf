@@ -166,12 +166,11 @@ export class PageInternal extends PureComponent {
 
   get rotate() {
     const { rotate } = this.props;
+    const { page } = this.state;
 
     if (isProvided(rotate)) {
-      return rotate;
+      return page ? rotate + page.rotate : rotate;
     }
-
-    const { page } = this.state;
 
     if (!page) {
       return null;
