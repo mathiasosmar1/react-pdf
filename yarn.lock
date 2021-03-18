@@ -5794,6 +5794,13 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
+"lodash.once@npm:^4.1.1":
+  version: 4.1.1
+  resolution: "lodash.once@npm:4.1.1"
+  checksum: 236e00ca5f20304fab5b38aa3aedb034959153dae6edf33d7f9b00406ced8f24ed232a74f1200505d9049165ceea2ce1256199e1683b0a25e9de89091d4b13c2
+  languageName: node
+  linkType: hard
+
 "lodash.sortby@npm:^4.7.0":
   version: 4.7.0
   resolution: "lodash.sortby@npm:4.7.0"
@@ -6950,6 +6957,13 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
+"react-fast-compare@npm:^2.0.4":
+  version: 2.0.4
+  resolution: "react-fast-compare@npm:2.0.4"
+  checksum: 4e4bfc3597414a36ee35977259012fff30c4f13a0e5dcabf958e91991bef8e9a3faee9dd666cfbdb0c2a0f0ddaf242ac2912054caa956a793c4cdff274dc5aec
+  languageName: node
+  linkType: hard
+
 "react-is@npm:^16.12.0 || ^17.0.0, react-is@npm:^17.0.1":
   version: 17.0.1
   resolution: "react-is@npm:17.0.1"
@@ -6981,6 +6995,8 @@ fsevents@^2.1.2:
     eslint: ^7.12.0
     eslint-config-wojtekmaj: ^0.5.0
     jest: ^26.6.0
+    lodash: ^4.17.15
+    lodash.once: ^4.1.1
     make-cancellable-promise: ^1.0.0
     make-event-props: ^1.1.0
     merge-class-names: ^1.1.1
@@ -6989,6 +7005,7 @@ fsevents@^2.1.2:
     prop-types: ^15.6.2
     react: ^17.0.0
     react-dom: ^17.0.0
+    react-fast-compare: ^2.0.4
     rimraf: ^3.0.0
     webpack: ^5.20.0
     worker-loader: ^3.0.0

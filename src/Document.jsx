@@ -33,9 +33,6 @@ import {
 } from './shared/utils';
 
 import { eventProps, isClassName, isRef } from './shared/propTypes';
-
-const { PDFDataRangeTransport } = pdfjs;
-
 export default class Document extends PureComponent {
   state = {
     pdf: null,
